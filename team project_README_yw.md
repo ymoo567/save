@@ -83,21 +83,12 @@ centroid_y: list of y values of centroid points<br><br>
 distance(x1, y1, x2, y2) - distance euclidean distance between (x1, y1), (x2, y2)<br><br>
 
 ### for Elbow method<br><br>
-KMeans(n_clusters) 
 
-n_clusters: a number of clusters<br><br>
+Install the package 'yellowbrick' which is Machine Learning Visualization Tools
 
-Elbow(data, length)
+Import KMeans module from sklearn
 
-data: data frame which should be clustered
-
-length: maximum number of cluster<br><br>
-
-Visualize_silhouette(cluster_lists, data)
-
-cluster_lists: list of clustering number(1,2,3……………)
-
-data: data frame which should be clustered 
+Visualize the data with KElbowVisualizer<br><br>
 
 
 ----------------------------------------------
@@ -174,11 +165,3 @@ Display the final results on the map.
 If the following results are printed, you can define as the progress has been successfully executed.<br><br>
 
 ![화면 캡처 2022-11-18 113324](https://user-images.githubusercontent.com/118390275/202603602-789841e6-98cf-4d4f-bab5-73137230f068.png)
-
-### Elbow Method
-
-Install the package 'yellowbrick' which is Machine Learning Visualization Tools
-
-Import KMeans module from sklearn
-
-Visualize the data with KElbowVisualizer
