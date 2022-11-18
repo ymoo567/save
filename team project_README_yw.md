@@ -171,6 +171,14 @@ After that, check the results while executing one cell in the same way as questi
 If the number of elements contained in each cluster is the same as in the previous execution, the execution is stopped.
 Display the final results on the map.
 
-If the following results are printed, you can define as the progress has been successfully executed.
+If the following results are printed, you can define as the progress has been successfully executed.<br><br>
 
 ![화면 캡처 2022-11-18 113324](https://user-images.githubusercontent.com/118390275/202603602-789841e6-98cf-4d4f-bab5-73137230f068.png)
+
+### Elbow Method
+
+Install the package 'yellowbrick' which is Machine Learning Visualization Tools
+
+Import KMeans module from sklearn from sklearn.cluster import KMeans
+
+Visualize the data with KElbowVisualizer
