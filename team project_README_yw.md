@@ -179,6 +179,6 @@ If the following results are printed, you can define as the progress has been su
 
 Install the package 'yellowbrick' which is Machine Learning Visualization Tools
 
-Import KMeans module from sklearn from sklearn.cluster import KMeans
+Import KMeans module from sklearn
 
 Visualize the data with KElbowVisualizer
